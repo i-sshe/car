@@ -1,0 +1,1 @@
+cmd_/3.project/2.遙控小車/server/drive.ko := arm-linux-ld -EL -r  -T /2.arm6410/linux-3.0.1/scripts/module-common.lds --build-id  -o /3.project/2.遙控小車/server/drive.ko /3.project/2.遙控小車/server/drive.o /3.project/2.遙控小車/server/drive.mod.o

@@ -1,0 +1,10 @@
+KERN_DIR = /2.arm6410/linux-3.0.1
+
+all:
+	make -C $(KERN_DIR) M=`pwd` modules
+	
+clean:
+	rm -f *.ko *.o
+	rm -f modules.order
+	
+obj-m += car_drv.o
